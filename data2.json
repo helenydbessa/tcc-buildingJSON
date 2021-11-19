@@ -1,0 +1,108 @@
+{
+	"name": "teste1",
+	"objects": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33"],
+	"attributes": ["T1", "T2", "T3"],
+	"conditions": ["BLK_1", "RISK_1", "BLK_2", "OC_1", "SELFC_1", "RISK_2", "CON_1", "SELFC_2", "SOC_1", "BLK_3", "OC_2", "RISK_3", "SELFC_3", "BLK_4", "CON_2", "SELFP_1", "SOC_2", "DEP_1", "RISK_4", "OC_3", "CON_3", "BLK_5", "SOC_3", "DEP_2"],
+    "relations": [
+[
+["T1_OC_2", "T1_BLK_1"], [], ["T3_BLK_1", "T3_SELFC_1"]
+],
+[
+["T1_SOC_1", "T1_DEP_1", "T1_SELFC_1", "T1_BLK_1"], ["T2_SELFC_1", "T2_SOC_1", "T2_DEP_1", "T2_CON_1", "T2_RISK_3", "T2_BLK_1"], []
+],
+[
+["T1_SELFP_1", "T1_RISK_3", "T1_RISK_1", "T1_CON_2", "T1_BLK_1", "T1_SOC_2"], ["T2_SELFC_2", "T2_SELFC_1", "T2_OC_2", "T2_DEP_1", "T2_BLK_3", "T2_BLK_5", "T2_RISK_1", "T2_BLK_1", "T2_CON_2"], ["T3_BLK_1"]
+],
+[
+["T1_SOC_1", "T1_SELFC_1", "T1_CON_2", "T1_BLK_1", "T1_CON_1"], ["T2_SELFC_1", "T2_SOC_1", "T2_CON_1", "T2_RISK_1", "T2_BLK_1"], ["T3_BLK_1", "T3_CON_1", "T3_SELFC_1", "T3_BLK_3", "T3_SELFP_1", "T3_SOC_2", "T3_SOC_1", "T3_OC_3"]
+],
+[
+["T1_SOC_1", "T1_OC_2", "T1_CON_3", "T1_SELFC_1", "T1_BLK_3", "T1_BLK_1"], ["T2_BLK_1"], []
+],
+[
+["T1_SELFC_1", "T1_BLK_3", "T1_BLK_1", "T1_CON_1"], ["T2_SELFC_1", "T2_OC_2", "T2_CON_1", "T2_BLK_3", "T2_BLK_1"], []
+],
+[
+["T1_SOC_1", "T1_RISK_3", "T1_BLK_2", "T1_BLK_3", "T1_RISK_1", "T1_BLK_1"], ["T2_SELFC_1", "T2_DEP_2", "T2_SOC_1", "T2_OC_2", "T2_BLK_3", "T2_RISK_1", "T2_RISK_3", "T2_BLK_1", "T2_BLK_2"], ["T3_BLK_1", "T3_SELFC_2", "T3_SELFC_3", "T3_CON_1", "T3_CON_2", "T3_SELFC_1", "T3_BLK_3", "T3_SELFP_1", "T3_DEP_2", "T3_SOC_1", "T3_RISK_4"]
+],
+[
+["T1_SOC_1", "T1_SELFP_1", "T1_SELFC_1", "T1_CON_2"], [], ["T3_BLK_1", "T3_SELFC_1", "T3_RISK_2"]
+],
+[
+[], ["T2_OC_2", "T2_BLK_3", "T2_CON_1", "T2_BLK_1"], ["T3_CON_3", "T3_CON_1", "T3_CON_2", "T3_SELFP_1", "T3_SOC_3", "T3_SOC_2", "T3_SOC_1", "T3_BLK_1", "T3_OC_1", "T3_SELFC_2", "T3_BLK_4", "T3_OC_2", "T3_SELFC_3", "T3_BLK_5", "T3_BLK_2", "T3_SELFC_1", "T3_BLK_3", "T3_RISK_1", "T3_DEP_2", "T3_OC_3", "T3_RISK_3", "T3_DEP_1", "T3_RISK_2"]
+],
+[
+["T1_SOC_1", "T1_OC_2", "T1_CON_1", "T1_SELFC_3"], [], ["T3_BLK_1", "T3_CON_3", "T3_OC_2", "T3_CON_2", "T3_SELFC_1", "T3_BLK_3", "T3_SOC_3", "T3_DEP_2", "T3_RISK_3", "T3_DEP_1"]
+],
+[
+["T1_SOC_1", "T1_CON_3", "T1_SELFC_1", "T1_BLK_2", "T1_RISK_1", "T1_BLK_1", "T1_CON_1"], ["T2_SELFC_1", "T2_SOC_1", "T2_OC_2", "T2_CON_1", "T2_OC_1", "T2_RISK_2", "T2_BLK_1", "T2_BLK_2", "T2_CON_2"], []
+],
+[
+["T1_SELFC_1", "T1_BLK_1"], ["T2_SELFC_2", "T2_SELFC_1", "T2_OC_3", "T2_SOC_1", "T2_OC_2", "T2_CON_1", "T2_RISK_1", "T2_BLK_1", "T2_CON_3", "T2_BLK_2"], ["T3_CON_1"]
+],
+[
+["T1_CON_1"], ["T2_DEP_2", "T2_CON_1", "T2_BLK_3", "T2_BLK_1", "T2_CON_2"], ["T3_BLK_1", "T3_CON_1", "T3_SELFC_1", "T3_BLK_3", "T3_DEP_2", "T3_SOC_1"]
+],
+[
+["T1_BLK_1"], ["T2_BLK_3", "T2_BLK_1"], []
+],
+[
+["T1_SELFP_1", "T1_BLK_2", "T1_BLK_3", "T1_BLK_1", "T1_DEP_2", "T1_SOC_1", "T1_DEP_1", "T1_RISK_4", "T1_RISK_3", "T1_RISK_1", "T1_CON_2", "T1_CON_1", "T1_SOC_3"], ["T2_SOC_1", "T2_CON_1", "T2_BLK_1"], ["T3_BLK_1"]
+],
+[
+["T1_SELFC_1", "T1_BLK_1"], [], ["T3_BLK_1", "T3_SELFC_1"]
+],
+[
+["T1_DEP_1", "T1_SELFC_1", "T1_BLK_1"], [], ["T3_CON_2"]
+],
+[
+["T1_SOC_1", "T1_CON_3", "T1_SELFC_1", "T1_CON_2", "T1_BLK_1", "T1_CON_1", "T1_DEP_2"], ["T2_SELFC_1", "T2_SOC_1", "T2_RISK_1", "T2_BLK_1", "T2_CON_3", "T2_BLK_2", "T2_CON_2"], []
+],
+[
+["T1_SELFC_1", "T1_BLK_1"], ["T2_SELFC_1", "T2_BLK_1"], []
+],
+[
+["T1_SOC_1", "T1_SELFC_1", "T1_CON_2", "T1_BLK_1"], [], ["T3_BLK_1"]
+],
+[
+["T1_SELFC_1", "T1_RISK_1", "T1_BLK_3", "T1_BLK_1"], ["T2_SELFC_1", "T2_SOC_1", "T2_BLK_3", "T2_BLK_1"], ["T3_BLK_1", "T3_SOC_1"]
+],
+[
+["T1_SOC_1", "T1_OC_2", "T1_SELFC_1", "T1_BLK_5", "T1_RISK_3", "T1_BLK_2", "T1_BLK_3", "T1_BLK_1", "T1_SELFC_3"], [], ["T3_BLK_1", "T3_SELFC_1", "T3_DEP_1", "T3_OC_3"]
+],
+[
+["T1_CON_1", "T1_SELFC_3"], ["T2_SELFC_2", "T2_SELFC_1", "T2_SELFC_3", "T2_BLK_1"], []
+],
+[
+["T1_SOC_1", "T1_SELFP_1", "T1_CON_3", "T1_SELFC_1", "T1_RISK_3", "T1_CON_2", "T1_BLK_1"], ["T2_SELFC_1", "T2_SOC_1", "T2_BLK_4", "T2_BLK_1", "T2_CON_3", "T2_BLK_2", "T2_SELFP_1", "T2_CON_2"], ["T3_BLK_1", "T3_BLK_4", "T3_CON_1", "T3_BLK_2", "T3_SOC_1", "T3_RISK_2"]
+],
+[
+["T1_OC_2", "T1_BLK_5", "T1_BLK_3", "T1_BLK_1", "T1_DEP_2", "T1_SOC_1", "T1_CON_3", "T1_SELFC_1", "T1_RISK_3", "T1_CON_2", "T1_CON_1", "T1_SOC_3", "T1_SOC_2"], ["T2_BLK_3", "T2_BLK_5", "T2_BLK_1", "T2_BLK_2", "T2_SELFP_1", "T2_SELFC_2", "T2_SELFC_1", "T2_SELFC_3", "T2_SOC_2", "T2_DEP_2", "T2_OC_3", "T2_SOC_1", "T2_DEP_1", "T2_OC_2", "T2_SOC_3", "T2_CON_1", "T2_RISK_1", "T2_OC_1", "T2_RISK_3", "T2_RISK_4", "T2_CON_3", "T2_CON_2"], []
+],
+[
+["T1_OC_1", "T1_BLK_4", "T1_BLK_3", "T1_BLK_1", "T1_DEP_2", "T1_DEP_1", "T1_SOC_1", "T1_CON_3", "T1_SELFC_1", "T1_RISK_2", "T1_RISK_3", "T1_RISK_1", "T1_CON_2", "T1_CON_1", "T1_SOC_3", "T1_SOC_2"], ["T2_DEP_1", "T2_OC_2", "T2_BLK_1"], ["T3_BLK_1", "T3_CON_1", "T3_SELFC_1", "T3_SELFP_1", "T3_SOC_1", "T3_RISK_3", "T3_RISK_2"]
+],
+[
+["T1_SELFC_1", "T1_BLK_1"], [], ["T3_BLK_1", "T3_BLK_2", "T3_BLK_3", "T3_CON_2", "T3_RISK_1", "T3_SOC_3", "T3_SOC_1"]
+],
+[
+[], ["T2_SOC_1", "T2_BLK_3", "T2_RISK_3"], []
+],
+[
+["T1_SOC_1", "T1_BLK_2", "T1_BLK_1", "T1_CON_1"], ["T2_BLK_3", "T2_BLK_4", "T2_BLK_1", "T2_BLK_2", "T2_SELFP_1", "T2_SELFC_2", "T2_SELFC_1", "T2_SOC_1", "T2_CON_1", "T2_RISK_1", "T2_OC_1", "T2_RISK_3", "T2_CON_2"], ["T3_SELFC_1", "T3_SELFP_1"]
+],
+[
+[], ["T2_BLK_1"], ["T3_SELFC_1"]
+],
+[
+["T1_SELFC_1", "T1_BLK_1", "T1_SELFC_2"], [], ["T3_BLK_1", "T3_SELFC_1"]
+],
+[
+["T1_SOC_1", "T1_DEP_1", "T1_SELFC_1", "T1_BLK_3", "T1_BLK_1", "T1_CON_1", "T1_SELFC_2", "T1_DEP_2"], ["T2_BLK_1"], []
+],
+[
+[], [], ["T3_BLK_1", "T3_SELFC_1", "T3_SOC_1"]
+]
+]
+
+}
